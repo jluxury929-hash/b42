@@ -1,17 +1,17 @@
 {
   "name": "quantum-titan-mev",
-  "version": "57.2.0",
-  "description": "High-frequency MEV Engine - Stable Architecture",
+  "version": "57.3.0",
+  "description": "High-frequency MEV Engine - Stable v5 Architecture",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "@flashbots/ethers-provider-bundle": "1.0.0",
     "colors": "1.4.0",
-    "dotenv": "^16.3.1",
-    "ethers": "^5.7.2", 
-    "ws": "^8.16.0"
+    "dotenv": "16.3.1",
+    "ethers": "5.7.2", 
+    "ws": "8.16.0"
   },
   "engines": {
     "node": ">=20.0.0"
