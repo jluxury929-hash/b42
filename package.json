@@ -1,7 +1,7 @@
 {
   "name": "quantum-titan-mev",
-  "version": "57.1.0",
-  "description": "High-frequency Multi-Chain MEV Engine with Atomic Guards (2026 Edition)",
+  "version": "57.2.0",
+  "description": "High-frequency MEV Engine - Stable Architecture",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,9 +9,9 @@
   "dependencies": {
     "@flashbots/ethers-provider-bundle": "^1.0.0",
     "colors": "1.4.0",
-    "dotenv": "^17.2.3",
-    "ethers": "^6.16.0",
-    "ws": "^8.19.0"
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2", 
+    "ws": "^8.16.0"
   },
   "engines": {
     "node": ">=20.0.0"
